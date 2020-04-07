@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin : 0;
+}
+
+html,body{
+    margin: 0;
+    max-width:768px;;
+    height:100vh;
+    font-family:'Montserrat', sans-serif;
+    
+}
+
+body{
+   
+}
+
+.Header{
+    
+}
+
+.Hamburger{
+    float:left;
+    padding: 2vh;
+    font-size: 3vw;
+}
+
+.Header__Heading{
+    padding : 2vh ;
+    text-align: center;
+    font-size : 3vw;
+
+}
+
+.Intro{
+    background-image: url("../Images/Assets/Intro__BG-MD.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    color:white;
+}
+
+.Intro__Quote{
+    margin : 0 auto 0 auto;
+    padding : 40vh 20vw 0 20vw;
+    font-weight:500;
+    
+    font-size: 4vw;
+}
+
+
+.Intro__Vision-Heading{
+    margin : 0 auto 0 auto;
+    padding : 10vh 20vw 0 20vw;
+    font-weight:bolder;
+    text-transform: uppercase;
+    font-size: 5vw;
+}
+
+.Intro__Vision-Info{
+    margin : 0 auto 0 auto;
+    padding : 3vh 20vw 10vh 20vw;
+
+    /* width : 60vw; */
+    max-height:25vh;
+    overflow:hidden;
+    line-height: 1.5;
+    font-weight: lighter;
+    color:white;
+    text-align:justify;
+    font-size: 2.5vw;
+}
+
+.Intro__Mission-Heading{
+    margin : 0 auto 0 auto;
+    padding : 2vh 20vw 0 20vw;
+    font-weight:bolder;
+    text-transform: uppercase;
+    font-size: 5vw;
+}
+
+.Intro__Mission-Info{
+    margin : 0 auto 0 auto;
+    padding : 3vh 20vw 30vh 20vw;
+
+    /* width : 60vw; */
+    max-height:15vh;
+    overflow:hidden;
+    line-height: 1.5;
+    font-weight: lighter;
+    color:white;
+    text-align:justify;
+    font-size: 2.5vw;
+}
+
+
+
+
+/*=============================================
+=            About Section            =
+=============================================*/
+
+.About{
+    background:white;
+    color:black;
+}
+
+.About__Heading{
+ 
+    /* margin : 0 auto 0 auto; */
+    padding : 10vh 0 0 20vw;
+    color:black;
+    font-weight: bolder;
+    font-size: 5vw;
+
+}
+
+.About__Desc{
+    margin : 0 auto 0 auto;
+    padding : 5vh 20vw 0 20vw;
+    color:black;
+    text-align:justify;
+    font-size: 3vw;
+}
+
+.About__BG{
+    display: block;
+    width:100%;
+    height: auto;
+    /* background-image: url("../Images/Assets/About__BG-MD.png"); */
+    z-index: 3;
+}
+
+/*=====  End of About Section  ======*/
+
+
+/*=============================================
+=            Satellite Subsystems Section            =
+=============================================*/
+.SatSub{
+    background-color: #FFF200;
+}
+
+.SatSub__Heading{
+    margin : 0 auto 0 auto;
+    padding : 10vh 0 0 0;
+    color:black;
+    font-weight: bolder;
+    font-size: 5vw;
+    
+    text-align:center;
+}
+
+.SatSub__Wrapper{
+    padding: 5vh 0;;
+}
+
+.SatSub__Img{
+    display: block;
+    width:60vw;
+    height : 50vw;
+    border-radius:2vw ;
+    box-shadow: darkgrey 2px;
+    margin : 10vh auto;
+
+}
+
+
+
+/*=====  End of Satellite Subsystems Section  ======*/
+
+
+/*=============================================
+=            Team Section            =
+=============================================*/
+
+.Team{
+    background-color: white;
+    color : black;
+    padding: 0vh 0 15vh 0;
+}
+
+.Team__Heading{
+    color:black;
+    font-weight: bolder;
+    font-size: 5vw;
+    margin : 0 auto;
+    padding : 15vh 0 0 0;
+    text-align:center;
+}
+
+.Team__Img{
+    display: block;
+    margin : 0 auto;
+    max-width: 60vh;
+    
+}
+
+.Team__Button {
+    display:block;
+    margin : 4vh auto 0 auto;
+    padding : 2vh 5vw;
+    border-radius: 4vh;
+    border : solid 2px black;
+    background:#00000000;
+    font-size:  3vw;
+    font-weight : bold;
+}
+
+/*=====  End of Team Section  ======*/
+
+
+/*=============================================
+=            Achievements Section            =
+=============================================*/
+
+.Ach{
+    background-image: url("../Images/Assets/Ach__BG-MD.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding : 0 0 10vh 0;
+}
+
+.Ach__Heading{
+    color:black;
+    font-weight: bolder;
+
+    margin : 0 auto;
+    text-align:center;
+
+}
+
+.Ach__Object{
+    width : 60vw;
+    margin : 0  auto;
+}
+
+
+.Ach__Img{
+    display: block;
+    width : 60vw;
+    height: 50vw;
+}
+
+.Ach__Heading-Object{
+    padding : 2vh 0 4vh 0;
+    font-size: 4vw;
+    font-weight: bold; 
+    line-height: 1.5;
+
+}
+
+.Ach__Button {
+    display:block;
+    margin : 4vh auto 0 auto;
+    padding : 2vh 5vw;
+    border-radius: 4vh;
+    /* border : solid 2px black; */
+    background:#FFF200;
+    font-size:  3vw;
+    font-weight : bold;
+    box-shadow: none;
+}
+
+/*=====  End of Achievements Section  ======*/
+
+
+
+/*=============================================
+=            Partners Section            =
+=============================================*/
+
+.Partners {
+    padding :0 0 8vh 0;
+}
+
+.Partners__Heading{
+    color:black;
+    font-weight: bolder;
+
+    margin : 0 auto;
+    text-align:center;
+    padding  :8vh 0 4vh 0;
+
+}
+
+.Partners__Wrapper{
+    width : 68vw;
+    margin: 0 auto;
+    padding : 0;
+    /* Width = sum of widths of 2 images below */
+}
+
+.Partners__Img{
+    display: block;
+    width : 34vw;
+    height: 34vw;
+
+    margin : 0 auto;
+    padding : 2vh 2vh;
+}
+
+/*=====  End of Partners Section  ======*/
+
+
+
+
+
+/*=============================================
+=            Contact Section            =
+=============================================*/
+
+.Contact {
+    background:rgb(41, 40, 40);
+    padding :0 0 8vh 0;
+}
+
+.Contact__Heading{
+    color:white;
+    font-weight: bolder;
+
+    margin : 0 auto;
+    text-align:center;
+    padding  :8vh 0 4vh 0;
+
+}
+
+.Contact__Button{
+    display:block;
+    margin : 4vh auto 0 auto;
+    padding : 2vh 5vw;
+    border-radius: 4vh;
+    color:rgb(41, 40, 40);
+    background:white;
+    font-size:  3vw;
+    font-weight : bold;
+    box-shadow: none;
+}
+
+/*=====  End of Contact Section  ======*/
+
