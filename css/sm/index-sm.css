@@ -1,0 +1,1139 @@
+@media screen and (max-width: 768px){
+    
+*{
+    box-sizing: border-box;
+    margin : 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
+html,body {
+    margin:0px;
+    width:100%;
+    /* overflow:hidden; */
+    height:100vh;
+    font-family:'Roboto','Montserrat', sans-serif;
+    background:#040613;
+    background: url(../../Images/BG2-SM.jpg);
+    background-attachment: fixed;
+}
+
+.Mobilebar{
+    position:fixed;
+    display:block;
+    z-index:5;
+    width:99vw;
+    padding: 0 2vh;
+    line-height: 1.5;
+    /* height:2.7vh; */
+    background: rgba(31, 72, 70, 0.2);
+    border-bottom: 1px solid #379892;
+    
+}
+
+
+.Mobilebar__Heading{
+    display:inline-block;
+    font-size: 2.5vh;
+    padding : 2vh;
+    font-weight:bold;
+    
+    color : #499893;
+}
+
+.Mobilebar__Hamburger,.Mobilebar__Cross{
+    float : right;
+    width : 6vh;
+    height : 6vh;
+    position:relative;
+}
+
+
+
+
+.Mobilebar__Hamburger-Image,.Mobilebar__Cross-Image{
+    position:absolute;
+    top:15%;
+  left:15%;
+  width: 70%;
+  height:70%;
+ 
+}
+
+.Mobilebar__Cross-Image{
+    display:none;
+}
+
+.Mobilebar__Hamburger-Button{
+    position:absolute;
+    top:0;
+  left:0;
+  width: 100%;
+  height:100%;
+  background:none;
+  border:none;
+}
+
+.Nav {
+    
+    
+    position: fixed;
+    z-index: 2;
+    width:99vw;
+    padding : 1vw 0;
+    background: rgba(31, 72, 70, 0.2);
+border-bottom: 1px solid #499893;
+
+display:none;
+height:100vh;
+background: #090909f0;
+
+}
+
+
+
+
+[class^="Nav-"]{
+    font-size : 1vw;
+    text-transform: uppercase;
+    text-align:center;
+    display: inline-block;
+    width : 11%;
+    color : #499893;
+    font-weight:500;
+    
+
+    display:block;
+    width:100%;
+    font-size:3vh;
+    height:9vh;
+    
+}
+
+.Nav-Menu__Heading{
+    font-weight:bold;
+    font-size:3.2vh;
+    margin : 10vh 0 3vh 0;
+}
+
+.bg-earth{
+    position : absolute;
+    top:0;
+    left:0;
+    right : 0;
+    bottom: 0;
+    max-width:99vw;
+    height : 100vh;
+    background-image: url("../../Images/EarthMobile2.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* z-index:20; */
+
+
+    height : 100vh;
+    background-image: url("../../Images/EarthMobile2.png");
+    background-position: bottom;
+    /* background-color: black; */
+    border-bottom: 1px solid #379892;
+}
+
+
+main{
+    display: block;
+    padding:0;
+    margin: 0;
+}
+
+
+
+/*=============================================
+=            ABOUT SECTION            =
+=============================================*/
+
+.About{
+    width:100%;
+    /* height : 100vh; */
+}
+
+.Somaiya__Logo{
+    border-radius: 50%;
+    width : 20vw;
+    height: 20vw;
+    position: absolute;
+    top:20vh;
+    left:40vw;
+    /* z-index:5; */
+    
+}
+
+
+.About__KJSIEIT{
+    /* display: inline-block; */
+    color:#cecbcb;
+    font-size:4vh;
+    font-weight: lighter;
+     
+    text-align:center;
+    
+    padding : 35vh 0 0 0;
+}
+
+.NLI__Heading{
+    
+    color:#499893;
+    
+
+
+    font-size:5vh;   
+    font-weight:bold;
+
+    
+display: block;
+margin : 0 auto;
+padding: 10vh 0 0 3vw;
+text-align:center;
+width : 100vw;
+    
+}
+
+
+.About__Tagline{
+    color:#499893;
+    font-size:3.5vh;   
+   padding : 1vh 0 0 0;
+   margin : 0 auto;
+   text-align:center;
+
+}
+
+
+
+.About__Details-MD{
+   display:none;
+}
+
+.About__Desc{
+    display: block;
+    margin: 32vh 0 0 0 ;
+background-color : #49989322;
+border-bottom: 1px solid #379892;
+}
+
+.About__Heading{
+    color:#499893;
+    font-size:3vh;   
+   padding : 4vh 0 3vh 0;
+   font-weight: bold;;
+   margin : 0 auto;
+   text-align:center;
+}
+
+.About__Details-SM{
+    display: block;
+    color:#499893;
+    font-size:2vh;   
+   padding : 1vh 0 5vh 0;
+   margin : 0 auto;
+   text-align:center;
+   width: 70vw;
+
+}
+
+.Contact{
+    margin:0 auto;
+    /* width : 60vw; */
+    text-align:center;
+    padding : 4vh 0 0 5vh;
+}
+
+.Contact__Heading{
+    display:inline-block;
+    
+    color: #cfcfcf;
+    font-weight : bold;
+    font-size : 2.5vh;
+    padding : 0;
+}
+
+[class^='fa']{
+    position: relative;
+    font-size: 3vh;
+    margin : 0 0 0 3vw;
+    color: #379892;
+    z-index:3;
+}
+
+
+
+
+
+
+
+/*=====  End of ABOUT SECTION  ======*/
+
+
+
+/*=============================================
+=            Satellite Subsystem Section            =
+=============================================*/
+.BfSat{
+    /* margin : 80vh 10vw 60vh 10vw; */
+    padding : 20vh 0 10vh 0;
+    
+
+}
+
+
+.BfSat__Heading{
+    /* display: inline-block; */
+    color: #379892;
+    font-weight : bold;
+    font-size : 5vh;
+    line-height : 1.2;
+    /* margin-left: -10vw; */
+    text-align: center;
+}
+
+.BfSat__Btn{
+    margin: 2vw 0;
+    padding:1vw 4vw; 
+    color: #499893;
+    font-size:2vw;
+    background:none;
+    border: 1px solid #499893;
+    border-radius: 2vh;
+    /* background: linear-gradient(to bottom right, darkviolet, blue); */
+}
+
+.BfSat__Info{
+    color: #379892;
+    margin:0 auto;
+    width: 70vw;
+    padding: 4vw 0 ;
+    font-size : 2.5vh;
+    line-height : 1.5;
+}
+
+.SatSub__Heading{
+    color: #379892;
+    margin:0 auto;
+    /* margin-left: -10vw; */
+    text-align: center;
+    padding:0 0 2vw 0 ;
+    font-size : 4vh;
+    line-height : 1.5;
+}
+
+.SatSub__Info{
+    color: #379892;
+    margin:0 auto;
+    width: 70vw;
+    /* padding: 4vw 0 ; */
+    font-size : 2.5vh;
+    line-height : 1.5;
+}
+
+.SatSub__Wrapper{
+    /* margin : 10vh -3.8vw 10vh -3.8vw ; */
+    width:80vw;
+    padding : 2vw 0;
+}
+
+.SatSub__Container{
+    margin : 0;
+    padding : 3vh 3vw;
+}
+
+.SatSub__Img{
+    display:block;
+    
+    width:10vh;
+    height: 10vh;
+    margin :0 auto;
+    padding : 0;
+}
+
+.SatSub__Name{
+    color : #B47A37;
+    font-size: 3.5vh;
+    height : inherit;
+    font-weight:bold;
+    text-align : center;
+    line-height: 1.5;
+    width:100%;
+    padding : 1.8vw 0 0 0vw;
+}
+
+.SatSub__Detail{
+    color : #B47A37;
+    font-size: 2.5vh;
+    text-align : justify;
+    width:80vw;
+    margin:0 auto;
+    padding : 3vw 2vw;
+}
+
+/*=====  End of Satellite Subsystem Section  ======*/
+
+
+
+/*=============================================
+=            Ground Station Section            =
+=============================================*/
+.GroundStn{
+    padding : 0 0 8vw 0;
+}
+
+.Satelite__BG{
+    display:block;
+    width : 40vh;
+    height:auto;
+    margin-left : 15vw;
+}
+
+
+.GroundStn__Heading{
+    text-align:center;
+    color: #379892;
+    font-size:3.5vw;
+    font-weight : bold;
+    padding : 10vh 0;
+
+    
+    width:80vw;
+    font-size:4vh;
+    padding:0;
+    margin:0 auto;
+}
+
+.GrounStn__Wrapper{
+    margin: auto;
+    width : 100%;
+
+    padding: 5vh 0;
+}
+
+.GroundStn__Object{
+    margin: 0 0 2vw 0 ;
+    padding : 0;
+}
+
+.GroundStn__Object-Third{
+    /* only for sm */
+    display:none;
+}
+
+.GroundStn__Img{
+    display:block;
+    width: 60%;
+    height:12vw;
+  margin: 2vw auto 0.8vw auto;
+    border : 1px solid #379892;
+
+    height : 24vh;
+    
+}
+
+
+.GroundStn__Detail{
+    text-align:center;
+    color: #8B8D8D;
+    font-size:1vw;
+    font-weight:lighter;
+
+    
+    width:80vw;
+    font-size:2vh;
+    margin : 0 auto;
+}
+
+
+
+.GroundStn__Heading-NOAA{
+    
+    color: #379892;
+    font-size:2vw;
+    text-align: center;
+    padding : 0 0 10vh 0;
+
+    
+    width:80vw;
+    font-size:3vh;
+    margin : 3vh auto;
+}
+
+.GroundStn__Description-NOAA{
+    text-align :center;
+    color: #379892;
+    font-size:1.3vw;
+    margin : 0  auto;
+    width : 60vw;
+    padding :0 0 1vw 0;
+
+
+    width:80vw;
+    font-size:2.5vh;
+}
+
+.GroundStn__Btn{
+    display: block;
+    margin: 2vw auto;
+    padding:1vw 4vw; 
+    color: #499893;
+    font-size:2vw;
+    background:none;
+    border: 1px solid #499893;
+    border-radius: 2vh;
+    /* background: linear-gradient(to bottom right, darkviolet, blue); */
+
+
+
+    margin : 0 auto;
+    font-size: 2.5vh;
+}
+
+
+.Satnogs{
+    padding : 0 0 4vw 0;
+    
+}
+.Satnogs__Heading{
+    color: #379892;
+    font-size:3.5vh;
+    font-weight: bold;
+    text-align : center;
+    padding : 10vh 0 1vw 0;
+}
+
+.Handheld{
+    padding : 0 0 4vw 0;
+    
+}
+.Handheld__Heading{
+    color: #379892;
+    font-size:3.5vh;
+    font-weight: bold;
+    text-align : center;
+    padding : 0 0 1vw 0;
+}
+
+.WeatherData{
+    padding : 0 0 4vw 0;
+    
+}
+.WeatherData__Heading{
+    color: #379892;
+    font-size:3.5vh;
+    font-weight: bold;
+    text-align : center;
+    padding : 0 0 1vw 0;
+}
+
+
+/*=====  End of Ground Station Section  ======*/
+
+
+
+
+/*=============================================
+=            UASS Section            =
+=============================================*/
+
+.UASS{
+    padding : 7vw 0 0 0;
+    width : 60vw;
+    margin : 0 auto;
+}
+
+.UASS__Heading{
+    color: #379892;
+    font-size:3.5vh;
+    font-weight:bolder;
+    text-align: center;
+    padding : 0 0 1vw 0;
+}
+
+/*=====  End of UASS Section  ======*/
+
+
+/*=============================================
+=            SPQD Section            =
+=============================================*/
+
+.SPQD{
+    padding : 7vw 0 0 0;
+    width : 60vw;
+    margin : 0 auto;
+}
+
+.SPQD__Heading{
+    color: #379892;
+    font-size:3.5vh;
+    font-weight:bolder;
+    text-align: center;
+    padding : 0 0 1vw 0;
+}
+
+/*=====  End of SPQD Section  ======*/
+
+
+/*=============================================
+=            Space Conclave Section            =
+=============================================*/
+
+.SpaceConclave{
+    padding : 7vw 0 0 0;
+    width : 60vw;
+    margin : 0 auto;
+}
+
+.SpaceConclave__Heading{
+    color: #379892;
+    font-size:3.5vh;
+    font-weight:bolder;
+    text-align: center;
+    padding : 0 0 1vw 0;
+}
+
+/*=====  End of Space Conclave Section  ======*/
+
+
+
+/*=============================================
+=            Team Section            =
+=============================================*/
+
+.Team{
+    /* margin:40vh 0vh 10vh 0vh; */
+    padding : 5vw 0 0 0;
+    height: 100vh;
+}
+
+.Astronaut__BG{
+    display:block;
+    width : 40vw;
+    height:auto;
+    margin-left : 40vw;
+}
+
+.Team__Heading{
+    text-align:center;
+    font-weight : bold;
+    font-size : 3.5vw;
+    color: #499893;
+    padding : 10vw 0 0 0;
+
+    font-size:4vh;
+
+}
+
+.Team__Img{
+    display:block;
+    width:60vw;
+    height: auto;
+    margin: auto;
+
+    margin:5vh auto;
+}
+
+.Team__Details{
+    /* background-color: lightyellow; */
+    margin:auto;
+    height: 22vw;
+    width:60vw;
+}
+.Team__Details-Heading-Btn{
+    margin:0;
+    padding:0;
+    
+}
+
+.Team__Details-Heading{
+    display: inline-block;
+    padding:0;
+    margin:0;
+    font-weight:bold;
+    color: #499893;
+    width: 40%;
+
+    font-size: 3.5vh;
+    text-align:center;
+    width:100%;
+}
+
+.Team__Details-Btn{
+    display:block;
+    margin:2vh 0;
+    
+    padding:1vw 2vw; 
+    color: #499893;
+    font-size:2vw;
+    background:none;
+    border: 1px solid #499893;
+    border-radius: 2vh;
+
+    margin : 0 auto;
+    font-size: 2.5vh;
+}
+
+.Team__Details-Description{
+    float:right;
+    width:60%;
+    height: 20vh;
+    overflow:hidden;
+    text-align: justify;
+    padding-right:0;
+    color: #499893;
+
+    float:none;
+    font-size: 2.5vh;
+    margin:5vh auto;
+    width:100%;
+}
+/*=====  End of Team Section  ======*/
+
+
+.Astronaut__Animation{
+    position: relative;
+    height : 50vw;
+    width: 70vw;
+    margin : 0 10vw 0 20vw;
+    
+}
+
+.Astronaut__BG{
+    display:block;
+    position : absolute;
+    top : 20vw;
+    left: 35vw;
+    
+    width : 30vw;
+    height:auto;
+    
+    /* transform: matrix(0.6,0,0,0.6,0,0); */
+    
+    /* margin-left : 40vw; */
+}
+
+
+.Moon__BG{
+    display:block;
+    position : absolute;
+    top : 8vw;
+    left: 20vw;
+
+    width : 40vw;
+    height:auto;
+    /* padding : 20vw; */
+    /* margin-left : 40vw; */
+
+}
+
+.Flag{
+    display: block;
+    position: absolute;
+    top : 3vw;
+    left: 27vw;
+    width : 20vw;
+    height:auto;
+    
+    /* transform-origin: 0 100%; */
+}
+
+
+/*=============================================
+=            Achievements Section            =
+=============================================*/
+
+.Achievements{
+    /* margin-top:40vh; */
+    padding : 10vw 0 0 5vw ;
+
+    padding : 10vh 0;
+}
+
+.Moon__BG{
+    display:block;
+    width : 40vw;
+    height:auto;
+    margin-left : 40vw;
+}
+
+
+.Ach__Heading{
+    /* margin: 10vh 0vh; */
+    padding :  0 0 6vw 0;
+    color: #379892;
+    font-weight : bold;
+    font-size : 3.5vw;
+
+    text-align: center;
+    font-size: 4vh;
+    padding:0;
+}
+
+.Ach__Wrapper{
+    /* Only for sm */
+    padding : 6vh 0;
+}
+
+.Ach__Object{
+    width:40%;
+     max-height: 40vh;
+    overflow:hidden;
+    padding:0 2vw 0 0;
+    height : 20vw;    
+
+    margin:5vh auto;
+    width:80vw;
+    height:25vh;
+}
+
+.Ach__Img{
+    display : block;
+    float:left;
+    
+    width : 15vw;
+    height: 15vw;
+
+    width:25vh;
+    height:25vh;
+}
+
+
+.Ach__Heading-Desc{
+    margin:0;
+    /* text-align:justify; */
+    
+    color: #379892;
+    padding-left:17vw;
+    font-weight:bold;
+    /* For Col-md */
+    /* font-size:2.2vw;
+    line-height: 1.3; */
+    /* For col-lg */
+    font-size:1.8vw;
+    line-height: 1.3;
+
+    font-size: 3vh;
+}
+
+.Ach__Desc{
+
+    padding-left:17vw;
+    margin-top:2vh;
+    text-align:justify;
+    color: #379892;
+    font-size:1.2vw;
+    line-height:1.3;
+
+    font-size: 2.2vh;
+
+}
+
+.Ach__Btn{
+margin: 5vh 0 0 0 ;
+
+    /* clear:both; */
+    display : block;
+ /* margin: 0 0 0 60vw ; */
+ font-size: 2vw;
+ padding:1vw 4vw; 
+ text-align:center;
+ color : #499893;
+ background:none;
+ border: 1px solid #499893;
+     border-radius: 2vh;
+ 
+
+     margin : 0 auto;
+    font-size: 2.5vh;
+}
+/*=====  End of Achievements Section  ======*/
+
+
+/*=============================================
+=            Projects Section            =
+=============================================*/
+
+
+.Projects{
+    /* margin-top:30vh; */
+    padding:  10vh 0 0 0;
+    
+}
+
+.Saturn__BG{
+    display:block;
+    width : 40vw;
+    height:auto;
+    transform : translate(0,-20vh);
+
+    /* temp */
+    display: none;
+}
+
+
+
+.Projects__Heading{
+    /* margin: 10vh 0vh; */
+    color:#499893;
+    font-weight : bold;
+    font-size : 3.5vw;
+    text-align:right;
+    padding: 0 5vw 6vw 0;
+
+
+    text-align: center;
+    font-size: 4vh;
+    padding:0;
+
+}
+.Projects__Wrapper{
+    padding : 0 5vw 0 0;
+    
+
+    padding: 0;
+    width:60vw;
+}
+.Projects__Object{
+    float:right;
+    width:40%;
+    height: 18vw;
+    overflow:hidden;
+    padding:0;
+    
+
+    float:none;
+    width: 100%;
+    height:25vh;
+    margin : 5vh 0;
+}
+
+
+.Projects__Heading-Desc{
+    margin:0;
+    /* text-align:justify; */
+    
+    color : #499893;
+    padding-left:8vw;
+    text-align:right;
+
+    /* For Col-md */
+    /* font-size:2.2vw;
+    line-height: 1.3; */
+    /* For col-lg */
+    font-size:1.8vw;
+    line-height: 1.1;
+
+
+    text-align:left;
+    font-size: 3vh;
+    padding: 0 0 2vh 0;
+    /* width:100%; */
+}
+
+.Projects__Subheading-Desc{
+    text-align:right;
+    color : #499893;
+    font-size:1vw;
+
+
+    text-align:left;
+    font-size: 2vh; 
+}
+
+.Projects__Desc{
+
+    padding-left:8vw;
+    margin-top:2vh;
+    text-align:justify;
+    color: #499893;
+    text-align:justify;
+
+    font-size:1.2vw;
+    line-height:1.3;
+
+
+
+    text-align:left;
+    font-size: 2.5vh;
+    margin:0;
+    padding: 3vh 0 2vh 0;
+    
+}
+
+.Projects__Btn{
+   /* clear:both; */
+   display : block;
+/* margin: 0 0 0 60vw ; */
+    float:right;
+    margin-right: 5vw;
+font-size: 2vw;
+padding:1vw 4vw; 
+text-align:right;
+color : #499893;
+background:none;
+border: 1px solid #499893;
+    border-radius: 2vh;
+
+
+
+    float:none;
+    margin : 0 auto;
+    font-size: 2.5vh;
+}
+/*=====  End of Projects Section  ======*/
+
+
+/*=============================================
+=            Partners Section            =
+=============================================*/
+
+.Partners{
+    padding:7vh 0 0 0;
+    height: 100vh;
+}
+
+.Partners__Heading{
+    padding: 4vw 12.5vw 6vw 0;
+    color: #499893;
+    text-align:right;
+    font-weight : bold;
+    font-size : 3.5vw;
+
+
+    text-align:center;
+    padding : 0 0 10vh 0;
+    font-size:4vh;
+    
+}
+
+.Partners__LogoWrapper{
+    /* background:lightblue; */
+    width:80vw;
+    height: 60vh;
+    margin: 0 auto;
+
+
+    
+}
+
+
+.Partners__Logo{
+    display: block;
+    /* background-color: lightcoral; */
+    width: 24vw;
+    height:24vh;
+    background-color: #37989233;
+    border-radius: 2vh;
+    padding:1.5vw;
+    margin:1vw;
+    border : 1px solid #499893;
+
+    float:left;
+    width: 44%;
+    height : 36vw;
+    margin : 2vw;
+
+
+}
+
+/* .Partners__Logo-HighOn3D{
+   
+}
+
+.Partners__Logo-Idemi{
+ 
+}
+
+.Partners__Logo-Riddl{
+    transform: translate(-10vw,3vh);
+}
+
+.Partners__Logo-NCNNUM{
+    transform: translate(-4vw);
+}
+
+.Partners__Logo-RadioJitter{
+    transform:translate(0,5vh);
+}
+
+.Partners__Logo-Databyte{
+    transform: translate(-4vw);
+} */
+/*=====  End of Partners Section  ======*/
+
+
+
+/*=============================================
+=            Contact Section            =
+=============================================*/
+
+
+
+.Contact__Quotes{
+    padding: 0vw 0vw 3vw 0;
+    color: #499893;
+    font-size: 1.5vw;
+
+    font-size: 2.5vh;
+    padding : 3vh 0 6vh 0;
+}
+
+.Contact__Email{
+    padding: 0vw 0vw 2vw 0;
+    color: #499893;
+    font-size: 2.8vw;
+
+    font-size: 3.5vh;
+    padding: 0 0 6vh 0;
+}
+
+.Contact__Map{
+    width: 60vw;
+    height: 40vw;
+}
+/*=====  End of Contact Section  ======*/
+
+
+/*=============================================
+=            Footer            =
+=============================================*/
+
+.Footer{
+    background: #111111;
+    color : #379892;
+    padding: 2vh 10vw;
+    font-size: 1.5vw;
+
+    font-size: 2.5vh;
+}
+
+.Footer__Left{
+    float:left;
+}
+.Footer__Right{
+    float:right;
+    text-align: right;
+}
+
+/*=====  End of Footer  ======*/
+
+
+
+
+/*=============================================
+=            Other Styles and Utilities            =
+=============================================*/
+
+.Spacer{
+    clear:both;
+}
+
+/*=====  End of Other Styles and Utilities  ======*/
+
+}
