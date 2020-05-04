@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 @media only screen and (min-width : 768px)
 {
@@ -16,7 +17,7 @@ html,body {
     width:99vw;
     /* overflow:scroll; */
     height:100vh;
-    font-family:'Roboto','Montserrat', sans-serif;
+    font-family:'Oswald','Roboto','Montserrat', sans-serif;
     background:#040613;
     background: url(../../Images/BG2.jpg);
     background-size: contain;
@@ -410,6 +411,7 @@ main{
 }
 .Satnogs__Heading{
     color: #379892;
+    text-align : center;
     font-size:2.5vw;
     font-weight: bold;
     padding : 0 0 1vw 0;
@@ -421,6 +423,7 @@ main{
 }
 .Handheld__Heading{
     color: #379892;
+    text-align : center;
     font-size:2.5vw;
     font-weight: bold;
     padding : 0 0 1vw 0;
@@ -526,13 +529,25 @@ main{
     padding : 10vw 0 0 0;
 }
 
+.Team__Wrapper{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.Team__Details-Wrapper{
+    margin: 5vw auto ;
+    padding: 0;
+}
+
 .Team__Img{
     display:block;
-    width:60vw;
+    width:40vw;
     height: auto;
-    /* padding: 5vw; */
+    padding: 0;
     margin: 5vw auto ;
     border  : 1px solid #379892;
+    border-top-left-radius: 12vw;
+    float:right;
 }
 
 .Team__Details{
@@ -541,21 +556,22 @@ main{
     height: 22vw;
     width:60vw;
 }
-.Team__Details-Heading-Btn{
+/* .Team__Details-Heading-Btn{
     margin:0;
     padding:0;
     
-}
+} */
 
 .Team__Details-Heading{
-    display: inline-block;
+    /* display: inline-block; */
     padding:0;
     margin:0;
+    font-size: 3vw;
     color: #499893;
-    width: 40%;
+    /* width: 40%; */
 }
 
-.Team__Details-Btn{
+/* .Team__Details-Btn{
     display:block;
     margin:2vh 0;
     
@@ -565,19 +581,61 @@ main{
     background:none;
     border: 1px solid #499893;
     border-radius: 2vh;
-}
+} */
 
 .Team__Details-Description{
-    float:right;
-    width:60%;
-    height: 20vh;
+    /* float:right; */
+    /* width:100%; */
+    /* height: 20vh; */
     overflow:hidden;
     text-align: justify;
-    padding-right:0;
+    font-size: 1.5vw;
+    padding : 2vw 0 0 0;
+    /* padding-left:10%; */
     color: #499893;
 }
-/*=====  End of Team Section  ======*/
 
+
+
+.Team__Members-Wrapper{
+    width : 80vw;
+    margin : 0 auto;
+}
+
+.Team__Members-Heading{
+    /* font-weight : bold; */
+    text-align: center;
+    font-size : 3vw;
+    color: #499893;
+    padding : 5vw 0 3vw 0;
+}
+
+
+
+.Team__Member-Img{
+    display:block;
+    margin : 0 auto;
+    width : 20vw;
+    height: 20vw;
+    border-radius: 100%;
+}
+
+.Team__Member-Name{
+    text-align : center;
+    font-size : 2.5vw;
+    color: #499893;
+    padding : 2vw 0 0vw 0;
+}
+
+.Team__Member-Designation{
+    text-align : center;
+    font-size : 2.2vw;
+    color: #499893;
+    padding : 0.5vw 0 2vw 0;
+}
+
+
+/*=====  End of Team Section  ======*/
 
 
 
@@ -656,12 +714,15 @@ main{
     font-size : 3.5vw;
 }
 
+.Ach__Wrapper{
+    padding: 0;
+}
 
 .Ach__Object{
     width:40%;
      max-height: 40vh;
     overflow:hidden;
-    padding:0 2vw 0 0;
+    padding:0 7vw 0 0;
     height : 20vw;    
 }
 
@@ -679,22 +740,23 @@ main{
     /* text-align:justify; */
     
     color: #379892;
-    padding-left:17vw;
+    /* padding-left:17vw; */
     /* For Col-md */
     /* font-size:2.2vw;
     line-height: 1.3; */
     /* For col-lg */
-    font-size:1.8vw;
+    font-size:2.5vw;
+
     line-height: 1.1;
 }
 
 .Ach__Desc{
 
-    padding-left:17vw;
+    /* padding-left:17vw; */
     margin-top:2vh;
     text-align:justify;
     color: #379892;
-    font-size:1.2vw;
+    font-size:1.5vw;
     line-height:1.3;
 
 
@@ -770,7 +832,7 @@ margin: 5vh 0 0 0 ;
     /* font-size:2.2vw;
     line-height: 1.3; */
     /* For col-lg */
-    font-size:1.8vw;
+    font-size:2.5vw;
     line-height: 1.1;
 }
 
@@ -788,7 +850,7 @@ margin: 5vh 0 0 0 ;
     color: #499893;
     text-align:justify;
 
-    font-size:1.2vw;
+    font-size:1.5vw;
     line-height:1.3;
 
 
