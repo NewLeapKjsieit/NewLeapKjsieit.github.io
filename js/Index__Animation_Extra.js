@@ -14,9 +14,9 @@ var controller = new ScrollMagic.Controller()
 
 var tl__About = new TimelineMax()
 var tl__Astronaut__Animation = new TimelineMax()
-var tl__GndStn = new TimelineMax()
-var tl__Projects = new TimelineMax()
-var tl__Satellite__Animation = new TimelineMax()
+var tl_GndStn = new TimelineMax()
+var tl_Projects = new TimelineMax()
+var tl_Satellite = new TimelineMax()
 
 
 /* There will be two Sections of Animations in this file : MD (For device width > 768px)
@@ -27,6 +27,8 @@ The function below is very simple, it looks intimidating but its only lenghty, n
 
 function widthDetermine(x) {
     if (mediaQuery.matches) { // If media query matches
+
+        console.log("MD")
 
         /* MD Section (Eg. For Desktops/Laptops)*/
 
@@ -78,26 +80,7 @@ function widthDetermine(x) {
         /* Satellite Animation Section Animation */
 
 
-        tl__Satellite__Animation
-        .staggerFromTo(".Asteroid", 0.5, {
-            opacity: 0
-        },
-            {
-                opacity: 1,
-                ease: Power2.EaseOut
-            }, 0.2)
-
-        .fromTo(".Satelite__BG", 6, {
-            left: "0vw",
-            top: "0vw",
-            scale: 0.6
-        },
-            {
-
-                bezier: [{ left: "15vw", top: "6vw" }, { left: "25vw", top: "2vw" }, { left: "40vw", top: "10vw" }],
-                scale: 1,
-                ease: Power2.easeInOut
-            },0)
+        tl_Satellite
             .fromTo(".Ast1", 10, {
                 x: "20vw",
                 y: "-5vw",
@@ -108,7 +91,7 @@ function widthDetermine(x) {
                 scale: 0.4,
                 rotation: 200,
                 ease: Power3.EaseOut
-            },0)
+            })
             /* .to(".Ast1",3,{
             rotation : 380,
             scale : 0.9,
@@ -174,28 +157,33 @@ function widthDetermine(x) {
                     ease: Power4.EaseOut
                 }, 0)
 
-                var Satellite__Animation__Scene = new ScrollMagic.Scene({
-                    triggerElement: "#Satellite__Animation",
-                    triggerHook: 0.8,
-                    // duration : "75%"
-                  })
-                   /*  .addIndicators({
-                      colorTrigger: "white",
-                      colorStart: "white",
-                      colorEnd: "white",
-                      indent: 25
-                    }) */
-                    .setTween(tl__Satellite__Animation)
-                    .addTo(controller);
         /* End of Satellite AnimationSection Animation */
 
 
 
         /* Gnd Stn Section Animation */
 
-        // tl__GndStn
+        tl_GndStn
 
-            
+            .staggerFromTo(".Asteroid", 0.5, {
+                opacity: 0
+            },
+                {
+                    opacity: 1,
+                    ease: Power2.EaseOut
+                }, 0.2)
+
+            .fromTo(".Satelite__BG", 8, {
+                left: "0vw",
+                top: "0vw",
+                scale: 0.6
+            },
+                {
+
+                    bezier: [{ left: "15vw", top: "6vw" }, { left: "25vw", top: "2vw" }, { left: "40vw", top: "10vw" }],
+                    scale: 1,
+                    ease: Power2.easeInOut
+                })
 
 
         /* End of Gnd Stn Section Animation */
@@ -206,13 +194,13 @@ function widthDetermine(x) {
         /* Astronaut Animation Section Animation */
 
         tl__Astronaut__Animation
-            .set(".Astronaut__BG", {
+            .fromTo(".Astronaut__BG",5, {
                 left: "0vw",
                 top: "0vw",
                 opacity: 0.4,
                 scale: 1.5
-            })
-            .to(".Astronaut__BG", 5, {
+            }
+            , {
 
                 bezier: [{ left: "15vw", top: "7vw" }, { left: "35vw", top: "18vw" }],
                 rotation: -60,
@@ -220,7 +208,7 @@ function widthDetermine(x) {
                 // ease: Power1.easeInOut,
                 opacity: 1,
                 scale: 0.8
-            })
+            },0)
             /* .from(".Astronaut__BG", 5, {
                 top: 0,
                 left: "10vw",
@@ -234,22 +222,9 @@ function widthDetermine(x) {
 
             .from(".Flag", 0.5, {
                 height: 0
-            })
+            },4.5)
 
-            var Astronaut__Animation__Scene = new ScrollMagic.Scene({
-                triggerElement: "#Astronaut__Animation",
-                triggerHook: 0.6,
-                // duration : "75%"
-              })
-          /*       .addIndicators({
-                  colorTrigger: "white",
-                  colorStart: "white",
-                  colorEnd: "white",
-                  indent: 5
-                }) */
-                .setTween(tl__Astronaut__Animation)
-                .addTo(controller)
-              
+
 
         /* End of Astronaut Animation Section Animation */
 
@@ -259,26 +234,13 @@ function widthDetermine(x) {
         /* Project Section Animation */
 
 
-        tl__Projects
+        tl_Projects
             .from(".Saturn__BG", 5, {
                 opacity: 0,
                 rotation: -20,
                 x: "-8vw"
             })
 
-            var Projects__Scene = new ScrollMagic.Scene({
-                triggerElement: "#Projects",
-                triggerHook: 0,
-                // duration : "75%"
-              })
-             /*    .addIndicators({
-                  colorTrigger: "white",
-                  colorStart: "white",
-                  colorEnd: "white",
-                  indent: 5
-                }) */
-                .setTween(tl__Projects)
-                .addTo(controller);
 
         /* End of Project Section Animation */
 
@@ -289,7 +251,9 @@ function widthDetermine(x) {
 
     } else {
 
-         /* SM Section (Eg. For Mobile Phones) */
+        console.log("SM")
+
+        /* SM Section (Eg. For Mobile Phones) */
 
 
 
@@ -340,7 +304,7 @@ function widthDetermine(x) {
         /* Satellite Animation Section Animation */
 
 
-        tl__Satellite__Animation
+        tl_Satellite
 
         .fromTo(".Satelite__BG", 8, {
             left: "0vw",
@@ -432,20 +396,6 @@ function widthDetermine(x) {
                     ease: Power4.EaseOut
                 }, 0)
 
-                var Satellite__Animation__Scene = new ScrollMagic.Scene({
-                    triggerElement: "#Satellite__Animation",
-                    triggerHook: 0.3,
-                    // duration : "75%"
-                  })
-                   /*  .addIndicators({
-                      colorTrigger: "white",
-                      colorStart: "white",
-                      colorEnd: "white",
-                      indent: 25
-                    }) */
-                    .setTween(tl__Satellite__Animation)
-                    .addTo(controller);
-
         /* End of Satellite AnimationSection Animation */
 
 
@@ -460,7 +410,7 @@ function widthDetermine(x) {
 
 
         /* Astronaut Animation Section Animation */
-        tl__Astronaut__Animation
+
         .fromTo(".Astronaut__BG",5, {
             left: "0vw",
             top: "0vw",
@@ -491,19 +441,7 @@ function widthDetermine(x) {
                 height: 0
             },4.5)
 
-            var Astronaut__Animation__Scene = new ScrollMagic.Scene({
-                triggerElement: "#Astronaut__Animation",
-                triggerHook: 0.6,
-                // duration : "75%"
-              })
-                /* .addIndicators({
-                  colorTrigger: "white",
-                  colorStart: "white",
-                  colorEnd: "white",
-                  indent: 5
-                }) */
-                .setTween(tl__Astronaut__Animation)
-                .addTo(controller)
+
 
         /* End of Astronaut Animation Section Animation */
 
@@ -513,7 +451,7 @@ function widthDetermine(x) {
         /* Project Section Animation */
 
 
-        tl__Projects
+        tl_Projects
             .from(".Saturn__BG", 5, {
                 opacity: 0,
                 rotation: -20,
