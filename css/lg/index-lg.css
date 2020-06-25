@@ -706,6 +706,19 @@ main{
 =            Team Section            =
 =============================================*/
 
+.wrapper{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.item{
+    background: transparent;
+    height: 300px;
+}
+
+
+
 .Team{
     /* margin:40vh 0vh 10vh 0vh; */
     padding : 5vw 0 5vw 0;
@@ -739,7 +752,7 @@ main{
     padding: 0;
     margin: 5vw auto ;
     border  : 1px solid white;
-    border-top-left-radius: 12vw;
+    border-top-left-radius: 6vw;
     float:right;
 }
 
