@@ -381,6 +381,15 @@ main{
     padding : 10vw 0 4vw 0;
 }
 
+.GroundStn__Info{
+    color: white;
+    margin:0 auto;
+    width: 70vw;
+    /* padding: 4vw 0 ; */
+    font-size : 1.7vw;
+    line-height : 1.5;
+}
+
 .GrounStn__Wrapper{
     margin: auto;
     width : 100%;
@@ -394,20 +403,10 @@ main{
 .GroundStn__Img{
     display:block;
     width: 60%;
-    height:12vw;
+    height:24vw;
     margin: 2vw auto 0.8vw auto;
     border : 1px solid white;
 }
-
-
-.GroundStn__Detail{
-    text-align:center;
-    color: #8B8D8D;
-    font-size:1vw;
-    font-weight:lighter;
-}
-
-
 
 .GroundStn__Heading-NOAA{
     
@@ -451,6 +450,33 @@ main{
     padding : 0 0 1vw 0;
 }
 
+.Satnogs__Info{
+    color: white;
+    margin:0 auto;
+    width: 70vw;
+    /* padding: 4vw 0 ; */
+    font-size : 1.7vw;
+    line-height : 1.5;
+}
+
+.Satnogs__Wrapper{
+    margin: auto;
+    width : 100%;
+}
+
+.Satnogs__Object{
+    margin: 0 0 2vw 0 ;
+    padding : 0;
+}
+
+.Satnogs__Img{
+    display:block;
+    width: 60%;
+    height:12vw;
+    margin: 2vw auto 0.8vw auto;
+    border : 1px solid white;
+}
+
 .Handheld{
     padding : 0 0 4vw 0;
     
@@ -463,6 +489,33 @@ main{
     padding : 0 0 1vw 0;
 }
 
+.Handheld__Info{
+    color: white;
+    margin:0 auto;
+    width: 70vw;
+    /* padding: 4vw 0 ; */
+    font-size : 1.7vw;
+    line-height : 1.5;
+}
+
+.Handheld__Wrapper{
+    margin: auto;
+    width : 100%;
+}
+
+.Handheld__Object{
+    margin: 0 0 2vw 0 ;
+    padding : 0;
+}
+
+.Handheld__Img{
+    display:block;
+    width: 60%;
+    height:12vw;
+    margin: 2vw auto 0.8vw auto;
+    border : 1px solid white;
+}
+
 .WeatherData{
     padding : 0 0 4vw 0;
     
@@ -473,6 +526,31 @@ main{
     font-weight: bold;
     text-align : center;
     padding : 0 0 1vw 0;
+}
+
+.WeatherData__Wrapper{
+    margin: auto;
+    width : 100%;
+}
+
+.WeatherData__Object{
+    margin: 0 0 2vw 0 ;
+    padding : 0;
+}
+
+.WeatherData__Img{
+    display:block;
+    width: 60%;
+    height:12vw;
+    margin: 2vw auto 0.8vw auto;
+    border : 1px solid white;
+}
+
+.WeatherData__Detail{
+    text-align:center;
+    color: #8B8D8D;
+    font-size:1vw;
+    font-weight:lighter;
 }
 
 /*=====  End of Ground Station Section  ======*/
@@ -497,6 +575,33 @@ main{
     padding : 0 0 1vw 0;
 }
 
+.UASS__Info{
+    color: white;
+    margin:0 auto;
+    width: 70vw;
+    /* padding: 4vw 0 ; */
+    font-size : 1.7vw;
+    line-height : 1.5;
+}
+
+.UASS__Wrapper{
+    margin: auto;
+    width : 100%;
+}
+
+.UASS__Object{
+    margin: 0 0 2vw 0 ;
+    padding : 0;
+}
+
+.UASS__Img{
+    display:block;
+    width: 60%;
+    height:12vw;
+    margin: 2vw auto 0.8vw auto;
+    border : 1px solid white;
+}
+
 /*=====  End of UASS Section  ======*/
 
 
@@ -518,6 +623,33 @@ main{
     padding : 0 0 1vw 0;
 }
 
+.SPQD__Info{
+    color: white;
+    margin:0 auto;
+    width: 70vw;
+    /* padding: 4vw 0 ; */
+    font-size : 1.7vw;
+    line-height : 1.5;   
+}
+
+.SPQD__Wrapper{
+    margin: auto;
+    width : 100%;
+}
+
+.SPQD__Object{
+    margin: 0 0 2vw 0 ;
+    padding : 0;
+}
+
+.SPQD__Img{
+    display:block;
+    width: 60%;
+    height:12vw;
+    margin: 2vw auto 0.8vw auto;
+    border : 1px solid white;
+}
+
 /*=====  End of SPQD Section  ======*/
 
 
@@ -537,6 +669,33 @@ main{
     font-weight:bolder;
     text-align: center;
     padding : 0 0 1vw 0;
+}
+
+.SpaceConclave__Info{
+    color: white;
+    margin:0 auto;
+    width: 70vw;
+    /* padding: 4vw 0 ; */
+    font-size : 1.7vw;
+    line-height : 1.5;
+}
+
+.SpaceConclave__Wrapper{
+    margin: auto;
+    width : 100%;
+}
+
+.SpaceConclave__Object{
+    margin: 0 0 2vw 0 ;
+    padding : 0;
+}
+
+.SpaceConclave__Img{
+    display:block;
+    width: 60%;
+    height:12vw;
+    margin: 2vw auto 0.8vw auto;
+    border : 1px solid white;
 }
 
 /*=====  End of Space Conclave Section  ======*/
