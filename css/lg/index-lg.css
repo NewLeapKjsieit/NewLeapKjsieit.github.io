@@ -65,7 +65,7 @@ transition: top 0.3s;
     text-align:center;
     
     width : 13%;
-    color : #499893;
+    color : white;
     transform: translate(0,0);
     transition: transform 0.3s;
 }
@@ -96,7 +96,7 @@ transition: top 0.3s;
     
     width : 14vw;
     color : #499893;
-    background-color: #B47A37;
+    background-color: white;
 }
 
 .Nav__Button-Current{
@@ -159,7 +159,7 @@ main{
 
 .NLI__Heading{
    
-    color:#499893;
+    color:white;
     
     
 
@@ -174,7 +174,7 @@ main{
 }
 
 .About__Tagline{
-    color:#499893;
+    color:white;
     font-size:2.5vw;   
    padding : 1vw 0 0 5vw;
 
@@ -183,7 +183,7 @@ main{
 
 .About__Details-MD{
     width : 50vw;
-    color:#499893;
+    color:white;
     font-size:1.5vw;   
    padding : 2vw 0 0 5vw;
 
@@ -208,7 +208,7 @@ main{
     position: relative;
     font-size: 3vw;
     margin : 0 0 0 3vw;
-    color: #379892;
+    color: white;
     z-index:3;
 }
 
@@ -234,7 +234,7 @@ main{
 
 .BfSat__Heading{
     /* display: inline-block; */
-    color: #379892;
+    color: white;
     font-weight : bold;
     font-size : 3.5vw;
     line-height : 1.2;
@@ -245,16 +245,16 @@ main{
 .BfSat__Btn{
     margin: 2vw 0;
     padding:1vw 4vw; 
-    color: #499893;
+    color: white;
     font-size:2vw;
     background:none;
-    border: 1px solid #499893;
+    border: 1px solid white;
     border-radius: 2vh;
     /* background: linear-gradient(to bottom right, darkviolet, blue); */
 }
 
 .BfSat__Info{
-    color: #379892;
+    color: white;
     margin:0 auto;
     width: 70vw;
     padding: 4vw 0 ;
@@ -263,7 +263,7 @@ main{
 }
 
 .SatSub__Heading{
-    color: #379892;
+    color: white;
     margin:0 auto;
     /* margin-left: -10vw; */
     text-align: center;
@@ -273,7 +273,7 @@ main{
 }
 
 .SatSub__Info{
-    color: #379892;
+    color: white;
     margin:0 auto;
     width: 70vw;
     /* padding: 4vw 0 ; */
@@ -301,7 +301,7 @@ main{
 }
 
 .SatSub__Name{
-    color : #B47A37;
+    color : white;
     font-size: 2vw;
     height : 10vw;
     font-weight:bold;
@@ -312,7 +312,7 @@ main{
 }
 
 .SatSub__Detail{
-    color : #B47A37;
+    color : white;
     font-size: 1.5vw;
     text-align : justify;
     width:100%;
@@ -375,7 +375,7 @@ main{
 
 .GroundStn__Heading{
     text-align:center;
-    color: #379892;
+    color: white;
     font-size:3.5vw;
     font-weight : bold;
     padding : 10vw 0 4vw 0;
@@ -396,7 +396,7 @@ main{
     width: 60%;
     height:12vw;
     margin: 2vw auto 0.8vw auto;
-    border : 1px solid #379892;
+    border : 1px solid white;
 }
 
 
@@ -411,7 +411,7 @@ main{
 
 .GroundStn__Heading-NOAA{
     
-    color: #379892;
+    color: white;
     font-size:2vw;
     text-align: center;
     padding : 0 0 1vw 0;
@@ -419,7 +419,7 @@ main{
 
 .GroundStn__Description-NOAA{
     text-align :center;
-    color: #379892;
+    color: white;
     font-size:1.3vw;
     margin : 0  auto;
     width : 60vw;
@@ -431,10 +431,10 @@ main{
     display: block;
     margin: 2vw auto;
     padding:1vw 4vw; 
-    color: #499893;
+    color: white;
     font-size:2vw;
     background:none;
-    border: 1px solid #499893;
+    border: 1px solid white;
     border-radius: 2vh;
     /* background: linear-gradient(to bottom right, darkviolet, blue); */
 }
@@ -444,7 +444,7 @@ main{
     
 }
 .Satnogs__Heading{
-    color: #379892;
+    color: white;
     text-align : center;
     font-size:2.5vw;
     font-weight: bold;
@@ -456,7 +456,7 @@ main{
     
 }
 .Handheld__Heading{
-    color: #379892;
+    color: white;
     text-align : center;
     font-size:2.5vw;
     font-weight: bold;
@@ -468,7 +468,7 @@ main{
     
 }
 .WeatherData__Heading{
-    color: #379892;
+    color: white;
     font-size:2.5vw;
     font-weight: bold;
     text-align : center;
@@ -490,7 +490,7 @@ main{
 }
 
 .UASS__Heading{
-    color: #379892;
+    color: white;
     font-size:3.5vw;
     font-weight:bolder;
     text-align: center;
@@ -511,7 +511,7 @@ main{
 }
 
 .SPQD__Heading{
-    color: #379892;
+    color: white;
     font-size:3.5vw;
     font-weight:bolder;
     text-align: center;
@@ -532,7 +532,7 @@ main{
 }
 
 .SpaceConclave__Heading{
-    color: #379892;
+    color: white;
     font-size:3.5vw;
     font-weight:bolder;
     text-align: center;
@@ -559,7 +559,7 @@ main{
     text-align:center;
     font-weight : bold;
     font-size : 3.5vw;
-    color: #499893;
+    color: white;
     padding : 10vw 0 0 0;
 }
 
@@ -579,7 +579,7 @@ main{
     height: auto;
     padding: 0;
     margin: 5vw auto ;
-    border  : 1px solid #379892;
+    border  : 1px solid white;
     border-top-left-radius: 12vw;
     float:right;
 }
@@ -601,7 +601,7 @@ main{
     padding:0;
     margin:0;
     font-size: 3vw;
-    color: #499893;
+    color: white;
     /* width: 40%; */
 }
 
@@ -626,7 +626,7 @@ main{
     font-size: 1.5vw;
     padding : 2vw 0 0 0;
     /* padding-left:10%; */
-    color: #499893;
+    color: white;
 }
 
 
@@ -640,7 +640,7 @@ main{
     /* font-weight : bold; */
     text-align: center;
     font-size : 3vw;
-    color: #499893;
+    color: white;
     padding : 5vw 0 3vw 0;
 }
 
@@ -657,14 +657,14 @@ main{
 .Team__Member-Name{
     text-align : center;
     font-size : 2.5vw;
-    color: #499893;
+    color: white;
     padding : 2vw 0 0vw 0;
 }
 
 .Team__Member-Designation{
     text-align : center;
     font-size : 2.2vw;
-    color: #499893;
+    color: white;
     padding : 0.5vw 0 2vw 0;
 }
 
@@ -742,7 +742,7 @@ main{
 .Ach__Heading{
     /* margin: 10vh 0vh; */
     padding :  0 0 6vw 0;
-    color: #379892;
+    color: white;
     font-weight : bold;
     font-size : 3.5vw;
 }
@@ -772,7 +772,7 @@ main{
     margin:0;
     /* text-align:justify; */
     
-    color: #379892;
+    color: white;
     /* padding-left:17vw; */
     /* For Col-md */
     /* font-size:2.2vw;
@@ -788,7 +788,7 @@ main{
     /* padding-left:17vw; */
     margin-top:2vh;
     text-align:justify;
-    color: #379892;
+    color: white;
     font-size:1.5vw;
     line-height:1.3;
 
@@ -804,9 +804,9 @@ margin: 5vh 0 0 0 ;
  font-size: 2vw;
  padding:1vw 4vw; 
  text-align:center;
- color : #499893;
+ color : white;
  background:none;
- border: 1px solid #499893;
+ border: 1px solid white;
      border-radius: 2vh;
  
 }
@@ -834,7 +834,7 @@ margin: 5vh 0 0 0 ;
 
 .Projects__Heading{
     /* margin: 10vh 0vh; */
-    color:#499893;
+    color:white;
     font-weight : bold;
     font-size : 3.5vw;
     text-align:right;
@@ -857,7 +857,7 @@ margin: 5vh 0 0 0 ;
     margin:0;
     /* text-align:justify; */
     
-    color : #499893;
+    color : white;
     padding-left:8vw;
     text-align:right;
 
@@ -871,7 +871,7 @@ margin: 5vh 0 0 0 ;
 
 .Projects__Subheading-Desc{
     text-align:right;
-    color : #499893;
+    color : white;
     font-size:1vw;
 }
 
@@ -880,7 +880,7 @@ margin: 5vh 0 0 0 ;
     padding-left:8vw;
     margin-top:2vh;
     text-align:justify;
-    color: #499893;
+    color: white;
     text-align:justify;
 
     font-size:1.5vw;
@@ -898,9 +898,9 @@ margin: 5vh 0 0 0 ;
 font-size: 2vw;
 padding:1vw 4vw; 
 text-align:right;
-color : #499893;
+color : white;
 background:none;
-border: 1px solid #499893;
+border: 1px solid white;
     border-radius: 2vh;
 }
 /*=====  End of Projects Section  ======*/
@@ -916,7 +916,7 @@ border: 1px solid #499893;
 
 .Partners__Heading{
     padding: 4vw 0vw 6vw 10vw;
-    color: #499893;
+    color: white;
     
     font-weight : bold;
     font-size : 3.5vw;
@@ -937,7 +937,7 @@ border: 1px solid #499893;
     height:24vh;
     padding:1.5vw;
     margin:1vw;
-    border : 1px solid #499893;
+    border : 1px solid white;
     background-color: #37989233;
     border-radius: 2vw;
 }
@@ -977,13 +977,13 @@ border: 1px solid #499893;
 
 .Contact__Quotes{
     padding: 0vw 0vw 3vw 0;
-    color: #499893;
+    color: white;
     font-size: 1.5vw;
 }
 
 .Contact__Email{
     padding: 0vw 0vw 2vw 0;
-    color: #499893;
+    color: white;
     font-size: 2.8vw;
 
     /* border-bottom:2px solid  #379892; */
@@ -1002,7 +1002,7 @@ border: 1px solid #499893;
 
 .Footer{
     background: #111111;
-    color : #379892;
+    color : white;
     padding: 2vh 10vw;
     font-size: 1.5vw;;
 }
