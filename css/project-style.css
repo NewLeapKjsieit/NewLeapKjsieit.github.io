@@ -1,0 +1,385 @@
+body {
+    font: 400 15px 'Segoe UI Variable', sans-serif;
+    line-height: 1.8;
+    color: #212325;
+  }
+
+  /* h1{
+  font-size: 90px;
+} */
+
+  h2 {
+    font-size: 50px;
+    /* text-transform: uppercase; */
+    text-align: left;
+    color: #212325;
+    font-weight: 400;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    margin-bottom: 30px;
+
+  }
+
+  h4 {
+    font-size: 2rem;
+    line-height: 1.375em;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    align-self: left;
+    align-content: left;
+    color: #212325;
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+    font-style: 'Regular';
+  }
+
+  .jumbotron {
+    color: #fff;
+    color: #212325;
+
+    padding: 80px 30px;
+    font-family: 'Segoe UI Variable', sans-serif;
+    font-style: 'bold';
+    text-align: left;
+    background-color: #f2c029;
+    margin-bottom: 0px;
+  }
+
+  .jumbotron h1 {
+    padding-top: 150px;
+    font-size: 80px;
+    font-weight: bolder;
+
+  }
+
+  .jumbotron h2 {
+    text-align: center;
+  }
+
+  .jumbotron p {
+    font-size: 30px;
+    padding-left: 95px;
+  }
+
+  .jumbotron-intro-para{
+    font-size: 2rem;
+    padding-top: 2rem;
+  }
+
+  .container-fluid {
+    padding: 5% 3% 5% 3%;
+    /* padding: 60px 50px; */
+    font-family: 'Arial', sans-serif;
+    font-style: 'Regular';
+  }
+
+  .bg-grey {
+    background-color: #f2c029;
+    
+  }
+
+  .bg-grey h4{
+    margin-left: 100px;
+    margin-right: auto;
+  }
+
+  .bg-light {
+    background-color: #212325;
+    color: #fff;
+
+  }
+
+  .bg-light h4 {
+    color: #fff;
+    margin-left: 100px;
+    margin-right: auto;
+  }
+
+  .bg-light h2 {
+    color: #fff;
+    justify-content: left;
+    /* margin-top: 30px;
+  margin-left: 360px; */
+  }
+
+  .imghead {
+    margin: 70px 0px 50px 0px; 
+  }
+
+  .pic1 {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 400px;
+  }
+
+  .pic4 {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 400px;
+  }
+
+  .item h4 {
+    font-size: 24px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: normal;
+    margin: 70px 0;
+  }
+
+  .item span {
+    font-style: bold;
+  }
+
+  .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: auto;
+  vertical-align: center;
+  }
+
+  .grid-item {
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  width: 250px;
+}
+
+
+
+a:link {
+color: #212325;
+background-color: transparent;
+text-decoration: none;
+}
+a:active {
+color: #212325;
+background-color: transparent;
+text-decoration: underline;
+}
+a:visited {
+color: #212325;
+background-color: transparent;
+text-decoration: none;
+}
+a:hover {
+color: #212325;
+background-color: transparent;
+text-decoration: none;
+}
+  /* .navbar {
+  margin-bottom: 0;
+  background-color: #f2c029;;
+  z-index: 9999;
+  border: 0;
+  font-size: 16px !important;
+  line-height: 1.42857143 !important;
+  border-radius: 0;
+  font-family: 'Segoe UI Variable', sans-serif;
+  font-style: 'bold';
+  justify-content: center;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #f2c029 !important;
+  font-family: 'Segoe UI Variable', sans-serif;
+  font-style: 'bold';
+  font-size: 24px;
+  max-height: 150px;
+}
+img.navbar-brand{
+  max-height: 100%;
+      height: auto;
+      width: auto;
+} */
+
+  .col-sm-4 p {
+    color: black;
+    font-size: large;
+    align-content: center;
+  }
+
+  .row-text-left {
+    padding-top: 50px;
+    width: 500px;
+  }
+
+  .row-text-right {
+    justify-content: right;
+    width: 500px;
+    float: right;
+    margin-right: 200px;
+  }
+
+  .row-text-right p{
+    font-size: 17px;
+    line-height: normal;
+    padding-top: 50px;
+  
+  }
+
+  /* .navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #212325 !important;
+  background-color: #f2c029 !important;
+  font-family: 'Segoe UI Variable', sans-serif;
+  font-style: 'bold';
+  
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #f2c029 !important;
+  font-family: 'Segoe UI Variable', sans-serif;
+  font-style: 'bold';
+} */
+
+  .slideanim {
+    visibility: hidden;
+  }
+
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+
+  .bottom-arrow {
+    border-bottom: 0px solid #212325;
+    justify-content: center;
+}
+
+.bottom-arrow:after {
+  content:'';
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  height: 0;
+  margin-top: -150px;
+  border-top: 40px solid #212325;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.header-down-arrow {
+background-color: #f2c029;
+color: #f2c029;
+position: absolute;
+  bottom: 4vh;
+  left: 0;
+  right: 0;
+text-align: center;
+z-index: 10;
+}
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
