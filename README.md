@@ -1,2 +1,4 @@
 # NewLeapKjsieit.github.io
-this repository will in short be host to our website
+#We Believe
+<br>
+373 more miles to reach, promises to keep, before we sleep!
